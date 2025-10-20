@@ -1,5 +1,5 @@
 export default function YadaGroupLanding() {
-  const fyxer = "https://YOUR-FYXER-BOOKING-LINK";
+  const fyxer = "https://app.fyxer.com/e/fabian25/30";
   const email = "dealflow@yadagroup.com";
 
   return (
