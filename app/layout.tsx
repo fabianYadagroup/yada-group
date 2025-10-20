@@ -25,8 +25,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="icon" href="/yada-group/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/yada-group/favicon.png" type="image/png" />
       </head>
       <body>{children}</body>
       {GA_ID && (
