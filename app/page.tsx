@@ -19,7 +19,7 @@ export default function Home() {
             <a href="#why" className="hover:text-white">Why YADA</a>
           </nav>
           <div className="flex items-center gap-3">
-            <a href={fyxer} className="rounded-xl bg-amber-500/90 hover:bg-amber-400 text-zinc-950 px-4 py-2 font-medium">Book a call</a>
+            <a href={fyxer} target="_blank" rel="noopener noreferrer" className="rounded-xl bg-amber-500/90 hover:bg-amber-400 text-zinc-950 px-4 py-2 font-medium">Book a call</a>
           </div>
         </div>
       </header>
@@ -35,7 +35,7 @@ export default function Home() {
             YADA GROUP isn't just advising others—we're scaling ourselves the same way we help others grow. Through strategic acquisitions, partnerships, and operational excellence, we acquire and build businesses that create lasting value and compounding growth.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
-            <a href={fyxer} className="rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 px-6 py-3 font-semibold text-center">Book an intro</a>
+            <a href={fyxer} target="_blank" rel="noopener noreferrer" className="rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 px-6 py-3 font-semibold text-center">Book an intro</a>
             <a href="#who" className="rounded-xl border border-zinc-800 hover:border-zinc-700 text-zinc-200 px-6 py-3 text-center">Who we work with</a>
           </div>
           <div className="mt-10 flex items-center gap-6 text-xs text-zinc-400">
@@ -63,7 +63,7 @@ export default function Home() {
             <div key={i} className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
               <h3 className="text-lg font-semibold">{c.title}</h3>
               <p className="mt-3 text-sm text-zinc-300">{c.body}</p>
-              <a href={fyxer} className="mt-6 inline-block text-amber-400 hover:text-amber-300 text-sm font-medium">Book a call →</a>
+              <a href={fyxer} target="_blank" rel="noopener noreferrer" className="mt-6 inline-block text-amber-400 hover:text-amber-300 text-sm font-medium">Book a call →</a>
             </div>
           ))}
         </div>
@@ -93,7 +93,7 @@ export default function Home() {
             </li>
           ))}
         </ol>
-        <a href={fyxer} className="mt-8 inline-block rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 px-6 py-3 font-semibold">Start a conversation</a>
+        <a href={fyxer} target="_blank" rel="noopener noreferrer" className="mt-8 inline-block rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 px-6 py-3 font-semibold">Start a conversation</a>
       </section>
 
       {/* WHY YADA */}
@@ -124,7 +124,7 @@ export default function Home() {
           <h3 className="text-2xl md:text-3xl font-semibold">Let's explore a deal.</h3>
           <p className="mt-3 text-zinc-300 max-w-2xl">If you're ready to grow through acquisition, partnership, or smart capital, we'll help you structure, scale, and sustain that growth.</p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
-            <a href={fyxer} className="rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 px-6 py-3 font-semibold text-center">Book an intro</a>
+            <a href={fyxer} target="_blank" rel="noopener noreferrer" className="rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 px-6 py-3 font-semibold text-center">Book an intro</a>
             <a href={`mailto:${email}`} className="rounded-xl border border-zinc-700 hover:border-zinc-600 px-6 py-3 text-center">{email}</a>
           </div>
         </div>
