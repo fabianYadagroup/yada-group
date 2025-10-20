@@ -1,4 +1,6 @@
-export default function YadaGroupLanding() {
+"use client";
+
+export default function Home() {
   const fyxer = "https://app.fyxer.com/e/fabian25/30";
   const email = "dealflow@yadagroup.com";
 
